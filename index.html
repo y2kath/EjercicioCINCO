@@ -4,13 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EJERCICIO 5</title>
+    <script src="ej5.js"></script>
 </head>
 <body>
-    <header>
-        <h1>EJERCICIO 5</h1>
-    </header>
-    <section>
-        <h2>sisi</h2>
-    </section>
+    <body class="cuerpo-ej3">
+        <div class="container">
+            <label for="mt">
+                <h1>SPORCENTAJE DE HOMBRES Y MUJERES</h1>
+            </label>
+            <br>
+
+            <div>
+                <h3>
+                    Ingrese la cantidad de alumnas que tiene
+                </h3>
+                <input class="button" 
+                type="text" 
+                id="aluM" 
+                name="aluM"
+                placeholder="Número de alumnas">
+            </div>
+            <br>
+
+            <div>
+                <h3>
+                    Ingrese la cantidad de alumnos que tiene
+                </h3>
+                <input class="button" 
+                type="text" 
+                id="aluH" 
+                name="aluH"
+                placeholder="Número de alumnos">
+            </div>
+            <br>
+
+           
+            <button class="button" 
+            type="button" onclick="alumno()" 
+            id="button" name="button">
+                Calcular
+            </button>
+            <br>
+            <div class="content">
+            <span  id="ph"></span>
+            <span id="pm"></span>
+        </div>
+        </div>
+    </body>
 </body>
 </html>
