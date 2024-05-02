@@ -7,5 +7,5 @@ function alumno()
     var pm = aluM / total
 
     document.getElementById("ph").innerHTML = "El porcentaje de hombres es del " + ph + "%";
-    document.getElementById("pm").innerHTML = " y el porcentaje de mujeres es del " + pm + "%";
+    document.getElementById("pm").innerHTML = " El porcentaje de mujeres es del " + pm + "%";
 }
